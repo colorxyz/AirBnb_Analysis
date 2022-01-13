@@ -61,6 +61,7 @@ I categorized different listings based upon their property type which gave the f
 ![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/Property_Type1.png)
 
 **Seatle**
+
 ![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/Property_Type2.png)
 
 
