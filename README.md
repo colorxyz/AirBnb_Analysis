@@ -35,7 +35,7 @@ Entire home/apt|   1393
 Private room  |   1061       
 Shared room  |   52     
 
-![alt tag](https://github.com/colorxyz/Disaster-Response-Pipelines/blob/main/image/Room Type Distribution1.png)
+![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/Room_Type_Distribution1.png)
 
 Seatle
 
@@ -45,7 +45,7 @@ Entire home/apt|   1805
 Private room  |   947       
 Shared room  |   91    
 
-![alt tag](https://github.com/colorxyz/Disaster-Response-Pipelines/blob/main/image/Room Type Distribution2.png)
+![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/Room_Type_Distribution2.png)
 
     It can be concluded that people are more inclined towards listing their entire property than that of private rooms or shared rooms.
     We can also find that Seatle has more rate to have "Entire home/apt" compare to Boston.
@@ -53,9 +53,9 @@ Shared room  |   91
 
 I categorized different listings based upon their property type which gave the following results:
 
-![alt tag](https://github.com/colorxyz/Disaster-Response-Pipelines/blob/main/image/Property_Type1.png)
+![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/Property_Type1.png)
 
-![alt tag](https://github.com/colorxyz/Disaster-Response-Pipelines/blob/main/image/Property_Type2.png)
+![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/Property_Type2.png)
 
 
 ### 1st Data point:
@@ -68,11 +68,11 @@ Now analyzing the prices for different room type and property type and plotted a
 
 While plotting the same on a heat map:
 
-![alt tag](https://github.com/colorxyz/Disaster-Response-Pipelines/blob/main/image/heat1.png)
+![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/heat1.png)
 
-![alt tag](https://github.com/colorxyz/Disaster-Response-Pipelines/blob/main/image/heat2.png)
+![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/heat2.png)
 
-![alt tag](https://github.com/colorxyz/Disaster-Response-Pipelines/blob/main/image/Property_Type.png)
+![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/Property_Type.png)
 
 ### 2nd Data point:
 This chart allows us to see all the listings' prices broken down by property type and room type. This gives us a much better understanding of the price breakdown based on property and room types.
@@ -82,9 +82,9 @@ I think that regional characteristics can affect to this.
 
 Lets see how the number of bedrooms available affects the price of a listing
 
-![alt tag](https://github.com/colorxyz/Disaster-Response-Pipelines/blob/main/image/Heat3.png)
+![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/Heat3.png)
 
-![alt tag](https://github.com/colorxyz/Disaster-Response-Pipelines/blob/main/image/Heat4.png)
+![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/Heat4.png)
 
 ### 3rd Data Point:
 It can be analyzed that with the increase in the number of bedrooms price of listing increases.Although, it depends upon the neighbourhood as well.
@@ -111,9 +111,9 @@ It can be concluded that prices of listings depends upon following factors:
 It can be seen that the Boston data is available from September 2016 to September 2017 and when average prices are analyzed maximum rates for the listings were in the month of september.
 Visualizing the same for a better understanding.
 
-![alt tag](https://github.com/colorxyz/Disaster-Response-Pipelines/blob/main/image/trend1.png)
+![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/trend1.png)
 
-![alt tag](https://github.com/colorxyz/Disaster-Response-Pipelines/blob/main/image/trend2.png)
+![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/trend2.png)
 
 ### 1st Data Point Boston:
 It can be clearly seen that the maximum average price for listings were in the month of september and October 2016 for Boston and the reason is because of good weather and Massachussetts' best time to observe fall colors.Fall Colors in Massachusetts attracts a lot of visitors which makes September and October peak months for Airbnb hosts. 
@@ -152,9 +152,9 @@ Friday|	143.036294	|5
 Saturday|	143.202136|	6
 Sunday	|136.459941|	7
 
-![alt tag](https://github.com/colorxyz/Disaster-Response-Pipelines/blob/main/image/Average_Price1.png)
+![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/Average_Price1.png)
 
-![alt tag](https://github.com/colorxyz/Disaster-Response-Pipelines/blob/main/image/Average_Price2.png)
+![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/Average_Price2.png)
 
 It can be seen that the average price of listings increases on weekends and are usual on weekdays.Lets plot it to get a better understanding
 
@@ -164,19 +164,19 @@ It can be seen that the prices are fairly high for the weekends than that of wee
 
 Analyzing all the holidays
 
-![alt tag](https://github.com/colorxyz/Disaster-Response-Pipelines/blob/main/image/holiday_Boston.png)
+![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/holiday_Boston.png)
 
-![alt tag](https://github.com/colorxyz/Disaster-Response-Pipelines/blob/main/image/holiday_Seatle.png)
+![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/holiday_Seatle.png)
 
 It can be seen that the maximum number of listings is for thanksgiving which can be reasoned as its a very popular holiday.Lets dig in further to find which holiday has the maximum average price.
 
-![alt tag](https://github.com/colorxyz/Disaster-Response-Pipelines/blob/main/image/holiday_Boston_Price.png)
+![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/holiday_Boston_Price.png)
 
-![alt tag](https://github.com/colorxyz/Disaster-Response-Pipelines/blob/main/image/holiday_Seatle_Price.png)
+![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/holiday_Seatle_Price.png)
 
-![alt tag](https://github.com/colorxyz/Disaster-Response-Pipelines/blob/main/image/holiday_Boston_Price2.png)
+![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/holiday_Boston_Price2.png)
 
-![alt tag](https://github.com/colorxyz/Disaster-Response-Pipelines/blob/main/image/holiday_Seatle_Price2.png)
+![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/holiday_Seatle_Price2.png)
 
 
 
@@ -227,7 +227,7 @@ count_of_Comments	|RANGE	|Sentiment
 
 Plotted a factorgraph to undersatnd and compare the sentiments of comments travellers mentioned on the listings.
 
-![alt tag](https://github.com/colorxyz/Disaster-Response-Pipelines/blob/main/image/sentiment.png)
+![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/sentiment.png)
 
 ### 1st Data Point:
 
@@ -235,7 +235,7 @@ It can be seen that Almost none of the texts are classified as having significan
 
 We can loosely interpret number of reviews as times people have stayed in the said listing. Of course, this depends on when the listing appeared, how long it appeared for, and various other factors. But it could serve to be useful information to see correlation between price and number of reviews.Lets check if there is any relationship between number of reviews and price of listing.
 
-![alt tag](https://github.com/colorxyz/Disaster-Response-Pipelines/blob/main/image/reviews.png)
+![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/reviews.png)
 
 ### 2nd Data Point:
 
