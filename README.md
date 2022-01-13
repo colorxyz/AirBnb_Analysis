@@ -255,7 +255,5 @@ Heneforth there is no exact relation between Prices and Number of Reviews for a 
 
 install mentioned libraries
 
-* conda install bokeh
 * pip install holidays
-* pip install langdetect
-* pip install wordcloud and python setup.py install
+
