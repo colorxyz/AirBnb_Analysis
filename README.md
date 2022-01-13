@@ -82,9 +82,9 @@ I think that regional characteristics can affect to this.
 
 Lets see how the number of bedrooms available affects the price of a listing
 
-![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/Heat3.png)
+![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/heat3.png)
 
-![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/Heat4.png)
+![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/heat4.png)
 
 ### 3rd Data Point:
 It can be analyzed that with the increase in the number of bedrooms price of listing increases.Although, it depends upon the neighbourhood as well.
@@ -235,7 +235,7 @@ It can be seen that Almost none of the texts are classified as having significan
 
 We can loosely interpret number of reviews as times people have stayed in the said listing. Of course, this depends on when the listing appeared, how long it appeared for, and various other factors. But it could serve to be useful information to see correlation between price and number of reviews.Lets check if there is any relationship between number of reviews and price of listing.
 
-![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/reviews.png)
+![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/review.png)
 
 ### 2nd Data Point:
 
