@@ -88,7 +88,11 @@ I think that regional characteristics can affect to this.
 
 Lets see how the number of bedrooms available affects the price of a listing
 
+**Boston**
+
 ![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/heat3.png)
+
+**Seatle**
 
 ![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/heat4.png)
 
@@ -98,7 +102,7 @@ It can be analyzed that with the increase in the number of bedrooms price of lis
 So the analysis gives us data points that the prices of listings on Airbnb depends upon the room type, property type, number of bedrooms and neighbourhood.
 It can be seen that the property with type as Apartment and the listing as with type as entire house with maximum number of bedooms has highest price.
 Although it depends upon neighbourhood as well.
-Seatle has many neighbourhood data ans it has more impact to price compare to Boston.
+Seatle has many neighbourhood data and it has more impact to price compare to Boston.
 
 
 
@@ -117,17 +121,21 @@ It can be concluded that prices of listings depends upon following factors:
 It can be seen that the Boston data is available from September 2016 to September 2017 and when average prices are analyzed maximum rates for the listings were in the month of september.
 Visualizing the same for a better understanding.
 
+**Boston**
+
 ![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/trend1.png)
+
+**Seatle**
 
 ![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/trend2.png)
 
-### 1st Data Point Boston:
+### 1st Data Point :
 It can be clearly seen that the maximum average price for listings were in the month of september and October 2016 for Boston and the reason is because of good weather and Massachussetts' best time to observe fall colors.Fall Colors in Massachusetts attracts a lot of visitors which makes September and October peak months for Airbnb hosts. 
 
-On the other hand, he maximum average price for listings were in the month of July and Aug 2016 for Seatle. It seems to me that Seatle is busy during Summer season.
+On the other hand, the maximum average price for listings were in the month of July and Aug 2016 for Seatle. It seems to me that Seatle is busy during Summer season.
 
 
-To analyze the data further, I have extracted name of the day from given date and checked weather it was a holiday and what is the reason for that holiday using datetime, clendar and holidays modules of python.
+To analyze the data further, I have extracted name of the day from given date and checked weather it was a holiday and what is the reason for that holiday using datetime, calendar and holidays modules of python.
 
 
 Added 3 new columns Day_Name, Holiday and us_holiday_name which counsits of name of the day, boolean value for "is it a holiday?" and reason for the holiday respectively.
@@ -146,6 +154,8 @@ Friday|	203.121167	|5
 Saturday|	203.408387|	6
 Sunday	|198.219764|	7
 
+![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/Average_Price1.png)
+
 **Seatle**
 
 day_Name	|Average_Price|	day_num
@@ -158,11 +168,9 @@ Friday|	143.036294	|5
 Saturday|	143.202136|	6
 Sunday	|136.459941|	7
 
-![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/Average_Price1.png)
-
 ![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/Average_Price2.png)
 
-It can be seen that the average price of listings increases on weekends and are usual on weekdays.Lets plot it to get a better understanding
+It can be seen that the average price of listings increases on weekends and are usual on weekdays.
 
 
 ### 2nd Data Point
@@ -170,17 +178,26 @@ It can be seen that the prices are fairly high for the weekends than that of wee
 
 Analyzing all the holidays
 
+**Boston**
+
 ![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/holiday_Boston.png)
+
+**Seatle**
 
 ![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/holiday_Seatle.png)
 
-It can be seen that the maximum number of listings is for thanksgiving which can be reasoned as its a very popular holiday.Lets dig in further to find which holiday has the maximum average price.
+It can be seen that the maximum number of listings is for thanksgiving for Boston and New Year's day for Setale which can be reasoned as its a very popular holiday.
+Lets dig in further to find which holiday has the maximum average price.
+
+**Boston**
 
 ![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/holiday_Boston_Price.png)
 
-![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/holiday_Seatle_Price.png)
-
 ![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/holiday_Boston_Price2.png)
+
+**Seatle**
+
+![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/holiday_Seatle_Price.png)
 
 ![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/holiday_Seatle_Price2.png)
 
@@ -188,23 +205,24 @@ It can be seen that the maximum number of listings is for thanksgiving which can
 
 ## Conclusion:
 
-After adding up all the analyis done so far for observing seasonal changes in prices,it can be concluded that:
+After adding up all the analysis done so far for observing seasonal changes in prices,it can be concluded that:
 
 1. If a traveller is visiting Boston on a low budget then he should avoid visiting during September and October as these are the times when average price of listings are fairly high as compared to the other months.
-If a traveller is visiting Seatle on a low budget then he should avoid visiting during July and August as these are the times when average price of listings are fairly high as compared to the other months.
+ If a traveller is visiting Seatle on a low budget then he should avoid visiting during July and August as these are the times when average price of listings are fairly high as compared to the other months.
 
 2. If the taveller is on low budget then he should avoid visiting Boston and Seatle on Weekends as prices of listings on weekend are higher than that of weekdays.
 
-3. Prices of listings also depends upon US holidays and longweeknds.Prices on long weekends and US holidays are higher than compared to other days.So for a low budget travel, a traveller should avoid travelling on a long weekend,Specially the long weekend of October i.e columbus day.
+3. Prices of listings also depends upon US holidays and long weekends. Prices on long weekends and US holidays are higher than compared to other days.
+  So for a low budget travel, a traveller should avoid travelling on a long weekend,Specially the long weekend of October (i.e columbus day) for Boston and New Year's day for Seatle.
 
 
 ## ANALYSIS - 3 
 ## SENTIMENT ANALYSIS OF REVIEWS & ITS RELATION WITH PRICE
 
-There are so many factors which contributes towards the price of a listing on AirBnB.While, we already have few conclusions for relationship between various factors and their dependency on prices of a listing,lets analyze if price of a listing dependent upon number of reviews and if yes, how does it varies?
+There are so many factors which contributes towards the price of a listing on AirBnB. While, we already have few conclusions for relationship between various factors and their dependency on prices of a listing, lets analyze if price of a listing dependent upon number of reviews and if yes, how does it varies?
 
 
-To retrieve the 'sentiment' of comments - 'positive','negative' or 'neutral' I am using built-in analyzer in the NLTK Python library to assign polarity scoore to each comment.I have assigned Ploarity score to every comment which includes detail like Positivity, negativity 
+To retrieve the 'sentiment' of comments - 'positive','negative' or 'neutral' I am using built-in analyzer in the NLTK Python library to assign polarity scoore to each comment. I have assigned Ploarity score to every comment which includes detail like Positivity, negativity 
 neutral and compound.
 
 listing_id	|id|reviewer_id|comments	|polarity_value	|neg	|pos	|neu	|compound
@@ -213,7 +231,7 @@ listing_id	|id|reviewer_id|comments	|polarity_value	|neg	|pos	|neu	|compound
 1178162	|4869189|6452964|Great location for both airport and city - gre...	|{'neg': 0.0, 'neu': 0.639, 'pos': 0.361, 'comp...	|0.0|	0.361	|0.639|	0.9061
 
 
-Our data presented in the dataframe consists of comments in various language while we are concerned only with comments in English language.In the next section I am removing all those rows which consists of comments in different language than that of English using langdetect library.
+Our data presented in the dataframe consists of comments in various language while we are concerned only with comments in English language. In the next section I am removing all those rows which consists of comments in different language than that of English using langdetect library.
 
 
 listing_id	|id|reviewer_id|comments	|polarity_value	|neg	|pos	|neu	|compound |language
