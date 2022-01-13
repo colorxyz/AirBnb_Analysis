@@ -71,7 +71,6 @@ It can be concluded that people are more inclined towards listing their entire p
 We can also find that Seatle has more "House" property_type compare to Boston and they have different property type.
 
 
-Now analyzing the prices for different room type and property type and plotted a donut chart for the same which includes category and subcategory for all those categories and hovering on each subcategory will show mean price for each of them
 
 While plotting the same on a heat map:
 
