@@ -30,7 +30,7 @@ It can be observed that we have quite skewed distributions, where the values of 
 
 I categorized different listings based upon their room type which gave the following results:
 
-Boston
+**Boston**
 
 Room Type  | Number Of Listings
 ------| --------  
@@ -40,7 +40,7 @@ Shared room  |   52
 
 ![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/Room_Type_Distribution1.png)
 
-Seatle
+**Seatle**
 
 Room Type  | Number Of Listings
 ------| --------  
@@ -131,7 +131,7 @@ Added 3 new columns Day_Name, Holiday and us_holiday_name which counsits of name
 
 Trying to find a trend of avergae prices for a week
 
-Boston
+**Boston**
 
 day_Name	|Average_Price|	day_num
 -----------|-------------|---------
@@ -143,7 +143,7 @@ Friday|	203.121167	|5
 Saturday|	203.408387|	6
 Sunday	|198.219764|	7
 
-Seatle
+**Seatle**
 
 day_Name	|Average_Price|	day_num
 -----------|-------------|---------
