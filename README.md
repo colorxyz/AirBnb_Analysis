@@ -1,3 +1,4 @@
+
 ![alt tag](https://github.com/ruchigupta19/Gupta_Ruchi_Spring2017/blob/master/final/extra/airsmall.png)
 # BOSTON and SEATLE AIRBNB OPEN DATA ANALYSIS
 
