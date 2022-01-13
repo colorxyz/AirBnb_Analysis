@@ -8,11 +8,11 @@ In this Project, I am going to explore the Airbnb data of Boston and Seatle whic
 * calendar.csv
 * reviews.csv
 
-**listings csv** consists of details of all the listings in Boston including their price, accomodates, ratings, number of reviews, summary, name, owner name, Description, host Id and many other columns decribing details of listings.
+**Boston/(Seatle/)listings csv** consists of details of all the listings in Boston & Seatle including their price, accomodates, ratings, number of reviews, summary, name, owner name, description, host Id and many other columns decribing details of listings.
 
-**calendar.csv** consists of details of listings and its availability and its price.
+**Boston/(Seatle/)calendar.csv** consists of details of listings and its availability and its price.
 
-**reviews.csv** consits of reveiws for each listing in Boston
+**Boston/(Seatle/)reviews.csv** consits of reveiws for each listing in Boston
 
 This includes 3 analysis on Boston and Seatle Airbnb open dataset with the help of which I tried to answer questions like seasonal pattern of airbnb housing price? and many more
 
