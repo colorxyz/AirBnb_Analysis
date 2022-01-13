@@ -56,8 +56,11 @@ Shared room  |   91
 
 I categorized different listings based upon their property type which gave the following results:
 
+**Boston**
+
 ![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/Property_Type1.png)
 
+**Seatle**
 ![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/Property_Type2.png)
 
 
