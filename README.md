@@ -1,5 +1,5 @@
 
-![alt tag](https://github.com/ruchigupta19/Gupta_Ruchi_Spring2017/blob/master/final/extra/airsmall.png)
+![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/extra/airsmall.png)
 # BOSTON and SEATLE AIRBNB OPEN DATA ANALYSIS
 
 In this Project, I am going to explore the Airbnb data of Boston and Seatle which includes 3 files:
