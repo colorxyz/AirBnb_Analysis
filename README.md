@@ -19,9 +19,12 @@ This includes 3 analysis on Boston and Seatle Airbnb open dataset with the help 
 
 ## ANALYSIS - 1 
 ## WHAT CAUSES DIFFERENCE IN PRICES OF LISTINGS?
-path_Analysis1="C:\Users\leec\OneDrive - Novelis Inc\Python\Airbnb_Analysis\AirBnb_Boston_Seatle_Analysis\Output Graphs\Analysis1\"
 
-It can be observed that we have quite skewed distributions, where the values of the prices vary up to $1300 in de Boston and $1000 in Seatle.
+![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/Distribution_of_Prices_of_Airbnbs1.png)
+
+![alt tag](https://github.com/colorxyz/AirBnb_Analysis/blob/main/Output%20Graphs/Distribution_of_Prices_of_Airbnbs2.png)
+
+It can be observed that we have quite skewed distributions, where the values of the prices vary up to $1300 in Boston and $1000 in Seatle.
 
 
 
